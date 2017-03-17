@@ -1,0 +1,195 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.clear{clear: both;}
+.tou{
+	background-color: #efefef;
+}
+.box{ 
+	width: 1050px;
+	height: 38px;
+	margin: 0 auto;
+}
+
+.box img{
+	float: left;
+	margin-top: 12px;
+}
+.p{
+	display: block;	
+}
+.box a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	float: right;
+	margin-top: 12px;
+}
+.biao{
+	width: 1070px;
+	height: 94px;
+	margin: 0 auto;
+}
+.biao img{
+	margin-top: 30px;
+	float: left;
+}
+.biao a{
+	font-size: 14px;
+	font-family: 微软雅黑;
+	text-decoration: none;
+	color: black;
+
+}
+.biao li{list-style: none;
+         float:right;
+         margin-right: 40px;
+         margin-top: 40px;  
+           }
+.shang{
+	height: 938px;
+	
+}
+ .back{
+ 	width: 100%;
+ 	background-image:url(images/back.jpg);
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+.back img{
+	display: block;
+	margin: 0 auto;
+	margin-top:70px;
+}
+.content{
+	margin: 0 auto;
+	width: 870px;
+	height: 220px;
+}
+.content ul{
+	margin-top: 30px;
+}
+.content li{
+	list-style: none;
+	float: left;
+	border: 1px solid #ebebeb;
+	width:220px;
+	height: 220px;
+	margin-left: 70px;
+
+}
+.content img{
+	margin-top: 30px;
+}
+.guan{
+	height: 487px;
+	background-color: #e6e8e9;
+}
+.guan p{
+	text-align: center;
+}
+/*.wen{*/
+	margin-top: 57px;
+}
+
+.yu{
+	font-size: 18px;
+	font-family: 微软雅黑;
+    text-align:center;
+}
+.sto {
+	color: #b6b7b7;
+	font-size: 12px;
+	text-align:center;
+}
+.zi{
+	height: 69px;
+	width: 904px;
+	margin: 0 auto;
+	color: #666666;
+	font-size: 14px;
+	margin-bottom: 68px;
+	margin-top: 40px;
+}
+.lan{
+	width: 1050px;
+	height:174px;
+	border: 1px solid #fff;
+	overflow: hidden;
+	margin: 0 auto;
+
+	}
+.lan .dong{
+	width: 2900px;
+	}
+.lan .dong li{
+	margin-right: 10px;
+	width: 280px;
+	height: 169px;
+	list-style: none;
+	float: left;	
+	}
+.lan .dong li img{
+	margin-top: 0px;
+	width: 278px;
+	height: 167px;
+}
+.lan .dong{
+		animation: turnaround 20s linear 1s infinite;
+		}
+.dong:hover {
+		animation-play-state: paused;
+		}
+@keyframes turnaround{
+		form: {
+			transform: translateX(0px);
+		}
+		to{
+			transform: translateX(-700px);
+
+		}
+		}
+.xin{
+	height: 178px;
+}
+.wo{
+	margin-top: 95px;
+	font-size: 18px;
+	font-family: 微软雅黑;
+    text-align:center;
+}
+.shi{
+	height: 472px;
+	background-color: #a4d1ee;
+}
+.quan{
+	position: relative;
+	top: 56px;
+	border: 1px solid red;
+	font-size: 14px;
+	width: 1050px;
+	height: 373px;
+	margin: 0 auto;
+
+}
+.tian a{
+	float: left;
+	text-decoration: none;
+	color: #fff;
+}
+.tian li{
+	margin-right: 30px;
+	list-style: none;
+}
+.qin li{
+	margin-top:40px;
+	list-style: none;
+
+}
+.qin a{
+	text-decoration: none;
+	color: black;
+}
