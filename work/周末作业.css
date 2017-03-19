@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 }
 .clear{clear: both;}
+.head{
+	width: 100%;
+}
 .tou{
 	background-color: #efefef;
 }
@@ -49,6 +52,9 @@
          margin-right: 40px;
          margin-top: 40px;  
            }
+.banner{
+	width: 100%;
+}
 .shang{
 	height: 938px;
 	
@@ -250,6 +256,7 @@
 	height: 645px;
 }
 .guanxi{
+	width: 100%;
 	height: 176px;
 }
 .guanxi li{
@@ -316,6 +323,7 @@ button{
 	color: #fff;
 }
 .footer{
+width: 100%;
 height: 94px;
 background-color: #3d9cd3;
 position: relative;
@@ -345,6 +353,7 @@ position: relative;
 }
 
 .foot{
+	width: 100%;
 	height: 35px;
 	background-color: #000;
 }
