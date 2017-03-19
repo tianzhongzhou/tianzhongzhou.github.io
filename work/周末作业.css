@@ -81,8 +81,13 @@
 	margin-left: 70px;
 
 }
-.content img{
-	margin-top: 30px;
+.jie1{
+	margin-top: 15px;
+	margin-left: 18px;
+}
+.danshi{
+	margin-top: 28px;
+	margin-left: 82px;
 }
 .guan{
 	height: 487px;
@@ -91,16 +96,19 @@
 .guan p{
 	text-align: center;
 }
-/*.wen{*/
-	margin-top: 57px;
-}
-
 .yu{
+
+	list-style:none;
+	position: relative;
+	left: 800px;
+	top: 30px;
 	font-size: 18px;
 	font-family: 微软雅黑;
-    text-align:center;
+    
 }
 .sto {
+	position: relative;
+	top: 35px;
 	color: #b6b7b7;
 	font-size: 12px;
 	text-align:center;
@@ -112,7 +120,7 @@
 	color: #666666;
 	font-size: 14px;
 	margin-bottom: 68px;
-	margin-top: 40px;
+	margin-top: 62px;
 }
 .lan{
 	width: 1050px;
@@ -161,6 +169,13 @@
 	font-family: 微软雅黑;
     text-align:center;
 }
+.de{
+	position: relative;
+	top: 6px;
+	color: #b6b7b7;
+	font-size: 12px;
+	text-align:center;
+}
 .shi{
 	height: 472px;
 	background-color: #a4d1ee;
@@ -168,7 +183,6 @@
 .quan{
 	position: relative;
 	top: 56px;
-	border: 1px solid red;
 	font-size: 14px;
 	width: 1050px;
 	height: 373px;
@@ -176,20 +190,169 @@
 
 }
 .tian a{
+	margin-right: 30px;
 	float: left;
 	text-decoration: none;
 	color: #fff;
+
+}
+.qin hr{
+	border: 0.5px dashed #d9dfe1;
 }
 .tian li{
-	margin-right: 30px;
 	list-style: none;
 }
 .qin li{
-	margin-top:40px;
+	width: 666px;
+	margin-top:20px;
 	list-style: none;
 
 }
 .qin a{
 	text-decoration: none;
 	color: black;
+}
+.qin img{
+	margin-right: 29px;
+}
+.qin{
+	position: absolute;
+	width: 200px;
+	height: 304px;
+	top: 31px
+}
+.riqi li{
+	list-style: none;
+	margin-top: 42px;
+
+}
+.riqi{
+	position: absolute;
+	top: 6px;
+	right: 403px;
+}
+.bai{
+	position: absolute;
+	top:62px;
+	right: 0px;
+}
+.cheng img{
+	position: absolute;
+	top:300px;
+	right: 178px;
+}
+.zheng img{
+	position: absolute;
+	top:300px;
+	right:108px;
+}
+.ditu{
+	height: 645px;
+}
+.guanxi{
+	height: 176px;
+}
+.guanxi li{
+	list-style: none;
+}
+
+.da{
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 800px;
+	font-size: 18px;
+	font-family: 微软雅黑;
+
+}
+.ming img{
+	margin-top: 144px;
+	margin-left: 710px;
+	
+}
+.kuang{
+	position: relative;
+	width: 1100px;
+	height: 424px;
+	margin: 0 auto;
+}
+.tobiao{
+	margin-left: 26px;
+}
+.kuang li{
+	margin-top: 12px;
+	list-style: none;
+}
+.kuang ul{
+	position: absolute;
+	top: -10px;
+	left: 205px;
+}
+.ditu1{
+	position: absolute;
+	top: 234px;
+	left: -500px;
+}
+textarea{
+	width: 630px;
+	height: 34px;
+}
+.input{
+	position: absolute;
+	left: 296px;
+	top: 0px;
+}
+.neirong textarea{
+	height: 120px;
+}
+button{
+	width: 54px;
+	height: 30px;
+	background-color: #3c9cd3;
+	position: absolute;
+	bottom: -50px;
+}
+.input a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer{
+height: 94px;
+background-color: #3d9cd3;
+position: relative;
+
+}
+.footer img{
+	position: absolute;
+	top: 21px;
+	left:771px;
+}
+.zhong{
+	position: absolute;
+	top: 57px;
+	left: 626px;
+}
+.footer li{
+	width: 118px;
+	float: left;
+	color: #fff;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
+.wang li{
+	list-style: none;
+}
+
+.foot{
+	height: 35px;
+	background-color: #000;
+}
+.zui{
+	color: #fff;
+	width: 531px;
+	height: 13px;
+	margin: 0 auto;
+	position: relative;
+	top: 7px;
 }

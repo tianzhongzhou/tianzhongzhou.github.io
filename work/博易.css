@@ -15,6 +15,7 @@
 		margin: 0 auto;
 		overflow: hidden;	
 	}
+	
 	.logo{
 		float: left;
 	    margin-left: 22px;
@@ -24,7 +25,27 @@
 		float: right;
 		margin-top: 39px;
 		margin-right: 19px;
+		width: 225px;
+    	height: 26px;
+    	background-color: #eee;
+    	float: right;
+    	/*margin: 39px 19px 0 0;*/
+    	border: 1px solid #e5e5e5;
 	}
+	.search button {
+    	float: right;
+    	margin-top:5px;
+    	margin-left:5px;
+    	border: none;
+    	outline: none;
+}
+	 .search input {
+    	margin-top: 6px;
+    	float: left;
+    	border: none;
+    	background-color: #eee;
+    	outline: none;
+}
 	.baba{
 		margin-top: 100px;
 		height: 59px;
