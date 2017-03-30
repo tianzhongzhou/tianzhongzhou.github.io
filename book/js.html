@@ -1,0 +1,646 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>js课程 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="github.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="html.html">
+            
+                <a href="html.html">
+            
+                    
+                    html课程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="css.html">
+            
+                <a href="css.html">
+            
+                    
+                    css课程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="css3.html">
+            
+                <a href="css3.html">
+            
+                    
+                    css3课程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="github.html">
+            
+                <a href="github.html">
+            
+                    
+                    github课程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="js.html">
+            
+                <a href="js.html">
+            
+                    
+                    js课程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >js课程</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="js&#x8BFE;&#x7A0B;">js&#x8BFE;&#x7A0B;</h1>
+<h4 id="&#x51FD;&#x6570;&#x7684;&#x53C2;&#x6570;">&#x51FD;&#x6570;&#x7684;&#x53C2;&#x6570;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;script type=&quot;text/javascript&quot;&gt;
+    function fun (num){     /num&#x4E3A;&#x5F62;&#x53C2;
+        console.log(num);
+    }
+    fun(&apos;hello&apos;);           /hello,world&#x4E3A;&#x5B9E;&#x53C2;
+    fun(&apos;world&apos;);
+&lt;/script&gt;
+
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x5BF9;&#x8C61;">&#x5BF9;&#x8C61;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;script type=&quot;text/javascript&quot;&gt;
+    var buitfulgirl={
+        name:&apos;&#x7530;&#x6D2A;&#x821F;&apos;,
+        color:&apos;write&apos;,
+        tall:function(){
+            alert(&apos;&#x6211;&#x662F;&apos;+this.name);
+        }
+    }
+    buitfulgirl.tall();
+&lt;/script&gt;
+
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x5FAA;&#x73AF;&#x8BED;&#x53E5;">&#x5FAA;&#x73AF;&#x8BED;&#x53E5;</h4>
+<pre><code class="lang-html&lt;body&gt;">    &lt;script type=&quot;text/javascript&quot;&gt;
+        for(i=0;i&lt;100;i++){
+                    var num=i%2;        /%&#x53D6;&#x4F59;
+                    var ture=!0;
+                    if(ture){
+                console.log (i);
+        }
+            }
+
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x6570;&#x636E;&#x7C7B;&#x578B;">&#x6570;&#x636E;&#x7C7B;&#x578B;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;script type=&quot;text/javascript&quot;&gt;
+    var str1=&apos;100&apos;;
+    var str2=&apos;100&apos;;
+
+    var num1=100;
+    var num2=100;
+
+     var tt= 1&gt;2;
+     var tt1= 1&lt;2;
+     var tt2=&quot;a&quot;/&quot;b&quot;;
+     var tt3=1&gt;=2;
+     var tt4=1&lt;=2;
+     var num=Math.random()*200+100;
+     var tt5=rol-ix
+
+    console.log(str1+str2);
+    console.log(num1+num2);
+    console.log(tt);
+    console.log(tt1);
+    console.log(tt2);
+    console.log(tt3);
+    console.log(tt4);
+    console.log(num);
+    console.log(0.1+0.2)
+
+&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x8C03;&#x7528;&#x51FD;&#x6570;">&#x8C03;&#x7528;&#x51FD;&#x6570;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;script type=&quot;text/javascript&quot;&gt;
+    function fun(){
+        console.log(&apos;hello&apos;);
+        console.log(&apos;word&apos;);
+    }
+    fun();
+&lt;/script&gt;  
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x8C03;&#x7528;&#x591A;&#x4E2A;&#x51FD;&#x6570;">&#x8C03;&#x7528;&#x591A;&#x4E2A;&#x51FD;&#x6570;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;script type=&quot;text/javascript&quot;&gt;
+    function count(n,m){
+        var result=n+m;
+        console.log(result)
+    }
+    count(4,5);
+&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x8FD4;&#x56DE;&#x503C;">&#x8FD4;&#x56DE;&#x503C;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;script type=&quot;text/javascript&quot;&gt;
+    function count(n,m){
+        var result=n+m;
+        return result;
+    }
+    var my=count(4,5);
+    console.log(my);
+&lt;/scrpt&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="if-else&#x8BED;&#x53E5;">if else&#x8BED;&#x53E5;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;script type=&quot;text/javascript&quot;&gt;
+    var str=&quot;he&quot; ; 
+    var str=&apos;hello&apos;;
+    var str=&apos;world&apos;;
+        if(boll){
+            console.log(&apos;hello&apos;);
+        }else{
+            console.log(&apos;world&apos;);   
+        } 
+&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x5206;&#x652F;&#x8BED;&#x53E5;&#x505A;&#x8FD0;&#x7B97;">&#x5206;&#x652F;&#x8BED;&#x53E5;&#x505A;&#x8FD0;&#x7B97;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;input type=&quot;text&quot; class=&quot;text1&quot;&gt;
+&lt;input type=&quot;text&quot; class=&quot;text2&quot;&gt;
+&lt;input type=&quot;text&quot; class=&quot;text3&quot;&gt;
+&lt;button class=&quot;button&quot;&gt;&#x8FD0;&#x7B97;&lt;/button&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+        var text1=document.querySelector(&apos;.text1&apos;);   /dom&#x8282;&#x70B9;&#x5F15;&#x5165;js
+        var button=document.querySelector(&apos;.button&apos;);
+        var text2=document.querySelector(&apos;.text2&apos;);
+        var text3=document.querySelector(&apos;.text3&apos;);
+        button.onclick=function(){
+        var num1=Number(text1.value);  /&#x628A;&#x6587;&#x672C;&#x6846;&#x91CC;&#x7684;&#x503C;&#x8F6C;&#x6362;&#x6210;&#x6570;&#x5B57;
+        var num2=Number(text3.value);
+    switch(text2.value){    
+        case&quot;+&quot;:console.log(num1+num2);break; /&#x5206;&#x652F;&#x8BED;&#x53E5;
+        case&quot;-&quot;:console.log(num1-num2);break;
+        case&quot;*&quot;:console.log(num1*num2);break;
+        case&quot;/&quot;:console.log(num1/num2);break;}
+        }
+&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x6570;&#x7EC4;">&#x6570;&#x7EC4;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;script type=&quot;text/javascript&quot;&gt;
+    var arr=[&apos;&#x8D85;&#x4EBA;&apos;,
+            &apos;&#x7537;&#x4EBA;&apos;,
+            &apos;&#x5973;&#x4EBA;&apos;,
+            &apos;&#x5916;&#x56FD;&#x4EBA;&apos;,
+            &apos;&#x4E2D;&#x56FD;&#x4EBA;&apos;];
+    var m=arr.length;
+    for( var i=0; i&lt;m;i++){
+        console.log(arr[i]);
+    }
+&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x70B9;&#x51FB;&#x589E;&#x52A0;-&#xFF08;&#x83B7;&#x53D6;&#x6587;&#x672C;&#xFF09;">&#x70B9;&#x51FB;&#x589E;&#x52A0; &#xFF08;&#x83B7;&#x53D6;&#x6587;&#x672C;&#xFF09;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;button class=&quot;one&quot;&gt;-&lt;/button&gt;
+&lt;span cl
+&lt;/script&gt;  
+&lt;/body&gt;ass=&quot;span&quot;&gt;0&lt;/span&gt;
+&lt;button class=&quot;two&quot;&gt;+&lt;/button&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+        var one=document.querySelector(&apos;.one&apos;);
+        var two=document.querySelector(&apos;.two&apos;);
+        var span=document.querySelector(&apos;.span&apos;);
+    var m=0;
+        two.onclick=function(){
+        m++;
+        span.innerHTML=m;       /innerHTML&#x83B7;&#x53D6;&#x6587;&#x672C;&#x6846;&#x91CC;&#x7684;&#x6240;&#x6709;&#x5143;&#x7D20;&#xFF08;&#x83B7;&#x53D6;&#x6587;&#x672C;&#xFF09;
+
+    }
+    one.onclick=function(){
+        m--;
+        span.innerHTML=m;
+    }
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="while&#x5FAA;&#x73AF;">while&#x5FAA;&#x73AF;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;script type=&quot;text/javascript&quot;&gt;
+    var i=0; 
+    while(i&lt;10){
+        console.log(i);
+        i++;
+    }
+&lt;/script&gt;
+
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x731C;&#x6570;&#x5B57;&#x6570;&#x5B66;&#x5BF9;&#x8C61;">&#x731C;&#x6570;&#x5B57;(&#x6570;&#x5B66;&#x5BF9;&#x8C61;)</h4>
+<pre><code class="lang-html&lt;body&gt;">    &lt;input type=&quot;text&quot; class=&quot;txt&quot;&gt;
+    &lt;button class=&quot;btn&quot;&gt;&#x731C;&#x6570;&#x5B57;&lt;/button&gt;
+
+    &lt;script&gt;
+        var txt = document.querySelector(&apos;.txt&apos;);
+        var btn = document.querySelector(&apos;.btn&apos;);
+        var target = Math.floor(Math.random()*100 + 1);/&#x6570;&#x5B66;&#x5BF9;&#x8C61;&#x5411;&#x4E0B;
+&#x53D6;&#x6574;&#xFF0C;100&#x4E3A;100&#x4E2A;&#x6570;&#xFF0C;1&#x4E3A;&#x4ECE;1
+        btn.onclick = function(){
+            var inp = Number(txt.value);
+            if(inp &gt; target){
+                alert(&apos;&#x5927;&#x4E8E;&#x7ED3;&#x679C;&apos;);
+            }else if(inp &lt; target){
+                alert(&apos;&#x5C0F;&#x4E8E;&#x7ED3;&#x679C;&apos;);
+            }else if(inp === target){
+                alert(&apos;&#x56DE;&#x7B54;&#x6B63;&#x786E;&apos;);
+            }
+        }
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x65E5;&#x671F;&#x5BF9;&#x8C61;">&#x65E5;&#x671F;&#x5BF9;&#x8C61;</h4>
+<pre><code class="lang-html&lt;body&gt;">    &lt;script&gt;
+        var dateNow = new Date(); //&#x6784;&#x9020;&#x51FD;&#x6570;   &#x663E;&#x793A;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#x6240;&#x6709;&#x4FE1;&#x606F;
+        var date = dateNow.getDate(); get&#x5F53;&#x524D;&#x65E5;&#x671F;
+        // var year = dateNow.getFullYear();
+        console.log(date);
+        var obj = {};
+        var obj = new Object();
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x5012;&#x8BA1;&#x65F6;">&#x5012;&#x8BA1;&#x65F6;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;h1&gt;&lt;/h1&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+        function fun(){
+        var target = new Date(&quot;2017-3-30 14:00&quot;);
+        var now=new Date();
+        var target1 = target.getTime();
+        var now1 = now.getTime();
+        var tTime=target1-now1;
+        var day = Math.floor(tTime / (1000*60*60*24));
+        var subday = Math.floor(tTime % (1000*60*60*24));
+
+        var hours = Math.floor(subday / (1000*60*60));
+        var subhours = Math.floor(subday % (1000*60*60));
+
+        var  minutes= Math.floor(subhours / (1000*60));
+        var  subminutes= Math.floor(subhours % (1000*60));
+
+        var  seconds= Math.floor(subminutes /(1000));
+        var allTime=day+&apos;:&apos;+hours+&apos;:&apos;+minutes+&apos;:&apos;+seconds;
+        document.querySelector(&apos;h1&apos;).innerHTML=allTime;
+
+        }
+        setInterval(fun,1000)
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x663E;&#x793A;&#x5F53;&#x524D;&#x65F6;&#x95F4;">&#x663E;&#x793A;&#x5F53;&#x524D;&#x65F6;&#x95F4;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;h1&gt;&lt;/h1&gt;
+&lt;script&gt;
+function fun(){
+    var dateNow= new Date();
+    var hours = dateNow.getHours();
+    var minutes = dateNow.getMinutes();
+    var seconds = dateNow.getSeconds();
+    var hTime = hours+&apos;:&apos;+minutes+&apos;:&apos;+seconds;
+    document.querySelector(&apos;h1&apos;).innerHTML=hTime;
+    }
+    setInterval(fun,1000)   /&#x8BA1;&#x65F6;&#x5668;
+&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x97F3;&#x4E50;&#x81EA;&#x52A8;&#x64AD;&#x653E;&#x5668;">&#x97F3;&#x4E50;&#x81EA;&#x52A8;&#x64AD;&#x653E;&#x5668;</h4>
+<pre><code class="lang-html&lt;body&gt;">    &lt;div class=&quot;box&quot;&gt;&lt;/div&gt;
+    &lt;button class=&quot;play&quot;&gt;&#x64AD;&#x653E;&lt;/button&gt;
+    &lt;audio src=&quot;audio.flac&quot;&gt;&lt;/audio&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+    var audio=document.querySelector(&apos;audio&apos;);
+    document.querySelector(&apos;.play&apos;).onclick=function(){
+        if(this.innerHTML===&apos;&#x64AD;&#x653E;&apos;){
+            audio.play();
+            this.innerHTML=&apos;&#x6682;&#x505C;&apos;
+        }else{audio.pause();
+            this.innerHTML=&apos;&#x64AD;&#x653E;&apos;
+        }
+
+    }
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="5&#x79D2;&#x8DF3;&#x767E;&#x5EA6;">5&#x79D2;&#x8DF3;&#x767E;&#x5EA6;</h4>
+<pre><code class="lang-html&lt;body&gt;">&lt;script type=&quot;text/javascript&quot;&gt;
+    var n=5;
+    setInterval(function(){         /&#x8BA1;&#x65F6;&#x5668;
+        n--;
+        if(n===0){
+         location.href=&apos;http://baidu.com&apos;;  
+        }
+    },1000)
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x56FE;&#x7247;&#x81EA;&#x52A8;&#x5207;&#x6362;">&#x56FE;&#x7247;&#x81EA;&#x52A8;&#x5207;&#x6362;</h4>
+<pre><code class="lang-html&lt;body&gt;">    &lt;img src=&quot;images/2.jpg&quot;&gt;
+    &lt;div class=&quot;numberbutton&quot;&gt;
+        &lt;button class=&quot;btn&quot;&gt;1&lt;/button&gt;
+        &lt;button class=&quot;btn&quot;&gt;2&lt;/button&gt;
+        &lt;button class=&quot;btn&quot;&gt;3&lt;/button&gt;
+        &lt;button class=&quot;btn&quot;&gt;4&lt;/button&gt;
+    &lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var img=document.querySelector(&apos;img&apos;);
+    var btn =document.querySelectorAll(&apos;.btn&apos;);
+    var numberbutton =document.querySelectorAll(&apos;.numberbutton&apos;);
+    var m=1;
+    var arr=[
+    &apos;images/2.jpg&apos;,
+    &apos;images/3.jpg&apos;,
+    &apos;images/4.jpg&apos;,
+    &apos;images/5.jpg&apos;];
+        for(var i=0;i&lt;btn.length;i++){
+            btn[i].index=i; 
+            btn[i].onclick=function(){
+                img.src= arr[this.index];
+                m=this.index;
+                // alert(arr[this.index])
+                }
+            }
+    function count(){
+    img.src=arr[m];
+    m++;
+    m=m===4?0:m;
+    }
+    var t=setInterval(count,2000);
+    numberbutton.onmouseenter=function(){
+        clearInreval(t);
+    }
+    numberbutton.onmouseenter=function(){
+        t=setInterval(count,2000);
+    }
+    &lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h4 id="&#x6A21;&#x62DF;juery&#x6DFB;&#x52A0;class">&#x6A21;&#x62DF;juery&#x6DFB;&#x52A0;class</h4>
+<pre><code class="lang-html&lt;head&gt;">    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style type=&quot;text/css&quot;&gt;
+        .abc{
+            color: red;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;hello world&lt;/h1&gt;
+    &lt;button&gt;&#x6309;&#x94AE;&lt;/button&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+    var h1=document.querySelector(&apos;h1&apos;);
+    function addClass(dom,str){
+        var newClassname=&apos; &apos;;
+        if(dom.className){
+            var cname=dom.className;
+            newClassname=cname+&apos; &apos;+str;
+        }else{
+        newClassname=str;
+        }
+        dom.className=newClassname;
+        }
+    document.querySelector(&apos;button&apos;).onclick=function(){
+        addClass(h1,&apos;abc&apos;);
+    }
+&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="github.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: github课程">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"js课程","level":"1.6","depth":1,"previous":{"title":"github课程","level":"1.5","depth":1,"path":"github.md","ref":"github.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"js.md","mtime":"2017-03-30T12:00:37.812Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-30T12:07:56.379Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
